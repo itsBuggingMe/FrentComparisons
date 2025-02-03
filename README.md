@@ -27,7 +27,7 @@ InvocationCount=1  UnrollFactor=1
 | CreateFrent  | 1000000     | 24,535.5 μs |   279.89 μs |   248.12 μs | 24,530.4 μs |     967 B |  2000.0000 | 2000.0000 | 2000.0000 | 40118.16 KB |
 
 
-
+### Delete.cs
 ```
 
 BenchmarkDotNet v0.14.0, Windows 11 (10.0.22631.4830/23H2/2023Update/SunValley3)
