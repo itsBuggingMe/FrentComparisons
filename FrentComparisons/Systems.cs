@@ -2,7 +2,9 @@
 using BenchmarkDotNet.Attributes;
 using Frent.Systems;
 using Friflo.Engine.ECS;
+using Frent.Core;
 using System.Runtime.CompilerServices;
+using Frent;
 
 namespace FrentComparisons;
 
@@ -37,7 +39,7 @@ public class Systems
 
         _frifloQuery = _friflo.Query<Component1, Component2, Component3>();
         _archQuery = new QueryDescription().WithAll<Component1, Component2, Component3>();
-        _frentQuery = _frent.Query<With<Component1, Component2, Component3>>();
+        _frentQuery = _frent.Query<With<Component1>, With<Component2>, With<Component3>>();
     }
 
     [Benchmark]

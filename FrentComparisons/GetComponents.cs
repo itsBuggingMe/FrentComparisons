@@ -60,9 +60,9 @@ public class GetComponents
     [Benchmark]
     public void GetFrent()
     {
-        foreach (ref var item in _frentities.AsSpan())
+        foreach (var item in _frentities)
         {
-            item.Get<Component1>().Num++;
+            _frent.GetUnsafe<Component1>(item).Num++;
         }
     }
 

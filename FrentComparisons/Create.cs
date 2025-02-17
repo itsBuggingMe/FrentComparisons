@@ -7,7 +7,7 @@ namespace FrentComparisons;
 [DisassemblyDiagnoser]
 public class Create
 {
-    [Params(1_000, 100_000, 1_000_000)]
+    [Params(1, 10, 100, 1_000, 10_000, 100_000, 1_000_000)]
     public int EntityCount;
 
     private FrentWorld _frent;

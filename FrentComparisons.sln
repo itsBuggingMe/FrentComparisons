@@ -5,6 +5,8 @@ VisualStudioVersion = 17.11.35222.181
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrentComparisons", "FrentComparisons\FrentComparisons.csproj", "{872E8444-6BB1-4A28-A021-DC9C94F573BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Frent", "..\Frent\Frent\Frent.csproj", "{0D4ADC7B-7F4B-4B2D-808E-BC1DD8D3AB07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{872E8444-6BB1-4A28-A021-DC9C94F573BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{872E8444-6BB1-4A28-A021-DC9C94F573BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{872E8444-6BB1-4A28-A021-DC9C94F573BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D4ADC7B-7F4B-4B2D-808E-BC1DD8D3AB07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D4ADC7B-7F4B-4B2D-808E-BC1DD8D3AB07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D4ADC7B-7F4B-4B2D-808E-BC1DD8D3AB07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D4ADC7B-7F4B-4B2D-808E-BC1DD8D3AB07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
